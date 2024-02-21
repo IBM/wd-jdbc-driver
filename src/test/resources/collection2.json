@@ -1,0 +1,32 @@
+{
+  "name" : "Annual Report Collection 2",
+  "collection_id" : "7357c1c6-1742-24c1-0000-018d1123e258",
+  "description" : "",
+  "created" : "2024-01-17T07:19:41.818Z",
+  "language" : "en",
+  "enrichments" : [ {
+    "enrichment_id" : "701db916-fc83-57ab-0000-00000000001e",
+    "fields" : [ "text" ]
+  }, {
+    "enrichment_id" : "701db916-fc83-57ab-0000-000000000012",
+    "fields" : [ "html" ]
+  }, {
+    "enrichment_id" : "701db916-fc83-57ab-0000-000000000014",
+    "fields" : [ "html" ]
+  } ],
+  "smart_document_understanding" : {
+    "enabled" : true,
+    "model" : "pre_trained"
+  },
+  "source_document_counts" : {
+    "pending" : 0,
+    "processing" : 0,
+    "available" : 3,
+    "failed" : 0
+  },
+  "document_counts" : {
+    "processing" : 0,
+    "available" : 3,
+    "failed" : 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "projects" : [ {
+    "project_id" : "0bb32e15-ae01-4a72-a7fe-c8d0de77c65e",
+    "type" : "content_mining",
+    "name" : "Test CM Project",
+    "collection_count" : 1
+  }, {
+    "project_id" : "4ed0983d-740b-4002-963f-f4aaa7ff0905",
+    "type" : "document_retrieval",
+    "name" : "Sample Project",
+    "collection_count" : 1
+  }, {
+    "project_id" : "22b6014b-b09f-4d11-a8fd-30dbbf97a7b5",
+    "type" : "intelligent_document_processing",
+    "name" : "Test IDP Project",
+    "collection_count" : 1
+  }, {
+    "project_id" : "e6402476-1bbb-4971-9839-c062e593a7b3",
+    "type" : "content_intelligence",
+    "name" : "Test CI Project",
+    "collection_count" : 2
+  }, {
+    "project_id" : "16402476-1bbb-4971-9839-c062e593a7b2",
+    "type" : "document_retrieval",
+    "name" : "Test.DR.Project",
+    "collection_count" : 1
+  }  ]
+}
