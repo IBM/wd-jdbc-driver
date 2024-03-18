@@ -37,6 +37,12 @@ generateGrammarSource {
 	outputDirectory = file(buildDir.toString() + '/generated-antlr/antlr/main/com/ibm/wd/connector/parser/')
 }
 
+sourceSets {
+	main {
+		java.srcDir file(buildDir.toString() + '/generated-antlr/antlr/main')
+	}
+}
+
 // Configure Auto Relocation of package names to avoid unintended version of dependency classes are used on runtime.
 // See https://imperceptiblethoughts.com/shadow/configuration/relocation/#filtering-relocation for details.
 import com.github.jengelman.gradle.plugins.shadow.tasks.ConfigureShadowRelocation

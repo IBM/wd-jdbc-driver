@@ -4,7 +4,11 @@ wd-jdbc-driver allows Java programs to connect to a Watson Discovery projects, c
 
 ## Prereq
 
-- Build with Java 17 JDK
+- Build with Java 17 JDK for Gradle
+
+```shell
+./gradlew generateGrammarSource
+```
 
 ## Format
 
@@ -18,7 +22,9 @@ wd-jdbc-driver allows Java programs to connect to a Watson Discovery projects, c
 ./gradlew shadowJar
 ```
 
-Fat JAR file should be created in `./build/libs`.
+Fat JAR file should be created in `./build/libs`. 
+
+This jar is compatible with Java 8 JDK. (This is required by IBM Cloud Pak for Data : https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=catalogs-generic-jdbc-connection)
 
 ## Test
 
