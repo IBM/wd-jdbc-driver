@@ -1,6 +1,12 @@
 # Watson Discovery JDBC Driver for Cloud Pak for Data
 
-wd-jdbc-driver allows Java programs to connect to a Watson Discovery projects, collections, and documents via JDBC driver interfaces in pure Java code. This will enable Watson Discovery to integrate with Cloud Pak for Data as data asset
+wd-jdbc-driver allows Java programs to connect to a Watson Discovery projects, collections, and documents via JDBC driver interfaces in pure Java code. This will enable Watson Discovery to integrate with Cloud Pak for Data as data asset.
+
+With this jdbc driver, you can list documents and the results of enrichments in Watson Discovery in a single table view as data asset.
+![discovery_documents_in_data_asset](https://raw.githubusercontent.com/IBM/wd-jdbc-driver/images/images/discovery_documents_in_data_asset.png)
+
+One of the application is to create a dashboard to list different information extracted from the same location in document.
+![visualize_annotations_grouped_by_location](https://raw.githubusercontent.com/IBM/wd-jdbc-driver/images/images/visualize_annotations_grouped_by_location.png)
 
 ## Prereq
 
