@@ -3,10 +3,12 @@ plugins {
 	id 'com.diffplug.spotless' version "6.24.0"
 	id 'java'
 	id 'antlr'
+	id 'com.palantir.git-version' version '3.0.0'
 }
 
 group 'com.ibm.wd'
-version '0.0.6-SNAPSHOT'
+def gitInfo = versionDetails()
+version = gitInfo.lastTag
 
 repositories {
 	mavenCentral()

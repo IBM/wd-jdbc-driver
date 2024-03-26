@@ -1,0 +1,38 @@
+# Build
+
+name: build-main
+
+# Trigger the workflow on push or pull request events but only for the main branch
+on:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Check-out repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'semeru'
+      
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Run test
+        run: |
+          ./gradlew test
+
+      - name: Build jar
+        run: |
+          ./gradlew shadowJar
