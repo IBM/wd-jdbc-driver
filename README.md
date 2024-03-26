@@ -56,7 +56,7 @@ Before go through these steps, make sure your collection has a field that can be
    5. *Username*: `bearer` for the instances in private CP4D cluster, `iamapikey` for the instances in IBM Public Cloud.
    6. *Password*: Bearer token for CP4D instance, IAM API key for IBM Cloud instances.
    7. *Properties*: You can put jdbc driver properties here. Followings would be the ones that you may set
-       1. `wdCursorKeyFieldPath`: field path available in your collection that can be used as a cursor to scroll all of your documents. It should be unique and numerical.
+       1. `wdCursorKeyFieldPath`: field path available in your collection that can be used as a cursor to scroll all of your documents. It should be unique and sortable.
 8. Try *Test connection* and check the test passes
 9. Select *Create*.
 10. Create new *Analytics* project or select existing one.
