@@ -22,8 +22,6 @@ To get an overview of the project, read the [README](../README.md) file. Here ar
 
 To navigate our codebase with confidence, read the [README](../README.md) file :confetti_ball:. For more information on how we write our markdown files, see "[Using Markdown and Liquid in GitHub Docs](https://docs.github.com/en/contributing/writing-for-github-docs/using-markdown-and-liquid-in-github-docs)."
 
-Every contributor must make a pull request against `dev` branch. All the commits in dev branch will be merged to `main` branch in publishing a new release.
-
 ### Issues
 
 #### Create a new issue
