@@ -35,8 +35,6 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          name: ${{ github.event.pull_request.body }}
-          tag_name: ${{ github.event.pull_request.title }}
           generate_release_notes: true
           files: |
             build/libs/wd-jdbc-driver-${{ github.ref_name }}-all.jar
