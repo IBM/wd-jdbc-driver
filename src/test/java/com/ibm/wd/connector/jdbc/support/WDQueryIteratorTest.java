@@ -203,4 +203,59 @@ public class WDQueryIteratorTest {
         }
         Assertions.assertEquals(3, count);
     }
+
+    @Test
+    public void testEmptyCollection() throws IOException, SQLException {
+        Properties properties = new Properties();
+        properties.setProperty(WD_CURSOR_KEY_FIELD_PATH.getName(), "metadata.cursor");
+        QueryOptions.Builder queryBuilder = WDQueryIterator.generateBaseQueryOptsBuilder(
+                "e6402476-1bbb-4971-9839-c062e593a7b3",
+                "8357c1c6-1742-24c1-0000-018d1123e258",
+                10,
+                "metadata.cursor");
+        WDQueryIterator iterator = new WDQueryIterator(
+                new DiscoveryV2ForTestFactory.Builder()
+                        .importListProjects("projects.json")
+                        .importListCollections(
+                                new ListCollectionsOptions.Builder()
+                                        .projectId("e6402476-1bbb-4971-9839-c062e593a7b3")
+                                        .build(),
+                                "collections.json")
+                        .importListFields(
+                                new ListFieldsOptions.Builder()
+                                        .projectId("e6402476-1bbb-4971-9839-c062e593a7b3")
+                                        .build(),
+                                "fields.json")
+                        .importCollectionDetails(
+                                new GetCollectionOptions.Builder()
+                                        .projectId("e6402476-1bbb-4971-9839-c062e593a7b3")
+                                        .collectionId("8357c1c6-1742-24c1-0000-018d1123e258")
+                                        .build(),
+                                "collection1.json")
+                        .importCollectionDetails(
+                                new GetCollectionOptions.Builder()
+                                        .projectId("e6402476-1bbb-4971-9839-c062e593a7b3")
+                                        .collectionId("7357c1c6-1742-24c1-0000-018d1123e258")
+                                        .build(),
+                                "collection2.json")
+                        .importQueries(
+                                queryBuilder
+                                        .count(10)
+                                        .filter(generateCursorFilterString(
+                                                "metadata.cursor", Long.MIN_VALUE))
+                                        .build(),
+                                "queries_none.json")
+                        .build()
+                        .create(properties),
+                "e6402476-1bbb-4971-9839-c062e593a7b3",
+                "8357c1c6-1742-24c1-0000-018d1123e258",
+                properties,
+                10);
+        int count = 0;
+        while (iterator.hasNext()) {
+            iterator.next();
+            count++;
+        }
+        Assertions.assertEquals(0, count);
+    }
 }

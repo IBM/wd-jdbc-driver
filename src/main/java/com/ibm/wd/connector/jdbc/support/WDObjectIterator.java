@@ -1,13 +1,10 @@
 package com.ibm.wd.connector.jdbc.support;
 
-import com.ibm.watson.discovery.v2.model.QueryResult;
 import com.ibm.wd.connector.jdbc.model.WDFieldPath;
+
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Iterator;
-import java.util.Map;
-
-import static com.ibm.wd.connector.jdbc.model.WDConstants.DISCOVERY_FIELD_PATH_SEPARATOR_REGEX;
 
 public class WDObjectIterator implements Iterator<Object> {
 
@@ -18,8 +15,10 @@ public class WDObjectIterator implements Iterator<Object> {
 
     private final boolean generateNestedStrictly;
 
-
-    public WDObjectIterator(WDQueryIterator queryIterator, WDFieldPath fieldPathToObjects, boolean generateNestedStrictly) {
+    public WDObjectIterator(
+            WDQueryIterator queryIterator,
+            WDFieldPath fieldPathToObjects,
+            boolean generateNestedStrictly) {
         this.queryIterator = queryIterator;
         this.fieldPath = fieldPathToObjects;
         this.generateNestedStrictly = generateNestedStrictly;
@@ -30,19 +29,17 @@ public class WDObjectIterator implements Iterator<Object> {
         if (previousNestedObjectIterator != null) {
             previousNestedObjectIterator = null;
         }
-        if ((nestedObjectIterator == null || !nestedObjectIterator.hasNext()) && queryIterator.hasNext()) {
+        if ((nestedObjectIterator == null || !nestedObjectIterator.hasNext())
+                && queryIterator.hasNext()) {
             previousNestedObjectIterator = nestedObjectIterator;
             nestedObjectIterator = WDDocValueExtractor.generateNestedObjectIterator(
-                    fieldPath.getFieldPath(),
-                    queryIterator.next(),
-                    generateNestedStrictly
-            );
+                    fieldPath.getFieldPath(), queryIterator.next(), generateNestedStrictly);
         }
     }
 
     @Override
     public boolean hasNext() {
-        return nestedObjectIterator.hasNext();
+        return nestedObjectIterator != null && nestedObjectIterator.hasNext();
     }
 
     @Override
@@ -53,7 +50,9 @@ public class WDObjectIterator implements Iterator<Object> {
     }
 
     private NestedObjectIterator getNestedIteratorHoldingCurrentSequence() {
-        return previousNestedObjectIterator != null ? previousNestedObjectIterator : nestedObjectIterator;
+        return previousNestedObjectIterator != null
+                ? previousNestedObjectIterator
+                : nestedObjectIterator;
     }
 
     public Pair<String, Object> getCurrentObjectHavingPath(WDFieldPath fieldPath) {

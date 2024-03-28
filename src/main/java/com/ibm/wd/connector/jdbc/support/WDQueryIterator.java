@@ -93,7 +93,7 @@ public class WDQueryIterator implements Iterator<Map<String, Object>> {
 
     @Override
     public boolean hasNext() {
-        return results.hasNext() || loadNext();
+        return (results != null && results.hasNext()) || loadNext();
     }
 
     private Map<String, Object> convertQueryResult(QueryResult result) {
