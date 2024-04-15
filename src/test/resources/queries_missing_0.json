@@ -1,0 +1,62 @@
+{
+  "matching_results": 6,
+  "retrieval_details": {
+    "document_retrieval_strategy": "untrained"
+  },
+  "results": [
+    {
+      "document_id": "6a61a76c-4f5c-442c-be99-8637b1d401da",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "metadata": {
+        "wd_cursor_key": 0,
+        "parent_document_id": "6a61a76c-4f5c-442c-be99-8637b1d401da"
+      },
+      "extracted_metadata": {
+        "sha1": "ED9DE44ECB1A9266EF2360F99C763EC92F77DAD5",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_0.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[406.23419189453125,307.05999755859375,538.371337890625,324.4799976348877]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,13]}},{\"page\":{\"page_number\":1,\"bbox\":[426.9690856933594,682.5169067382812,539.3958740234375,691.0252370834351]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[13,31]}}],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      }
+    },
+    {
+      "document_id": "a55092f3-7096-4704-b62b-f05b0be15398",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "metadata": {
+        "wd_cursor_key": 1,
+        "parent_document_id": "a55092f3-7096-4704-b62b-f05b0be15398"
+      },
+      "extracted_metadata": {
+        "sha1": "F0582A129C663057E27B1350A490B295D0084B33",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_1.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      }
+    },
+    {
+      "document_id": "ce58e6d1-c07c-4b8d-a55f-9f4aa1d1b03f",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "metadata": {
+        "wd_cursor_key": 2,
+        "parent_document_id": "ce58e6d1-c07c-4b8d-a55f-9f4aa1d1b03f"
+      },
+      "extracted_metadata": {
+        "sha1": "AF80212A90D3325B646DB07B81AFEA44B2CB3A3E",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_2.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,125.47357177734375,503.0899658203125,142.22357177734375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,19]}},{\"page\":{\"page_number\":1,\"bbox\":[100.66448974609375,363.5740051269531,218.3428192138672,379.4569983482361]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[19,71]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,192.0900115966797,546.4887084960938,373.18500995635986]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[71,403]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,406.1100158691406,549.1465454101562,412.140016078949]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[403,467]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,418.10699462890625,538.7137451171875,460.1279921531677]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[467,704]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,478.10101318359375,548.2257690429688,508.1250014305115]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[704,887]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,514.0919799804688,536.3403930664062,532.1189894676208]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[887,977]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,549.8400268554688,541.0806274414062,592.1130080223083]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[977,1175]}},{\"page\":{\"page_number\":1,\"bbox\":[298.67999267578125,598.0799560546875,545.26025390625,640.1009840965271]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1175,1382]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,711.77001953125,115.09519958496094,716.4600195884705]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1382,1405]}},{\"page\":{\"page_number\":1,\"bbox\":[544.9819946289062,711.5950317382812,549.1820068359375,716.4600315093994]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1405,1406]}}],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      }
+    }
+  ]
+}

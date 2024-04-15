@@ -7,15 +7,9 @@ import java.net.URL;
 import java.sql.*;
 import java.util.Calendar;
 
-import static com.ibm.wd.connector.jdbc.WDProperties.WD_DEFAULT_FETCH_SIZE;
-
 public class WDPreparedStatement extends WDStatement implements PreparedStatement {
 
-
-
     private final String sql;
-
-
 
     public WDPreparedStatement(WDConnection connection, String sql) throws SQLException {
         super(connection);
@@ -23,12 +17,21 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
         this.execute();
     }
 
-    public WDPreparedStatement(WDConnection connection, String sql, int resultSetType, int resultSetConcurrency) throws SQLException {
+    public WDPreparedStatement(
+            WDConnection connection, String sql, int resultSetType, int resultSetConcurrency)
+            throws SQLException {
         super(connection, resultSetType, resultSetConcurrency);
         this.sql = sql;
         this.execute();
     }
-    public WDPreparedStatement(WDConnection connection, String sql, int resultSetType, int resultSetConcurrency, int resultSetHoldability) throws SQLException {
+
+    public WDPreparedStatement(
+            WDConnection connection,
+            String sql,
+            int resultSetType,
+            int resultSetConcurrency,
+            int resultSetHoldability)
+            throws SQLException {
         super(connection, resultSetType, resultSetConcurrency, resultSetHoldability);
         this.sql = sql;
         this.execute();
@@ -125,7 +128,8 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setUnicodeStream(int parameterIndex, InputStream x, int length) throws SQLException {
+    public void setUnicodeStream(int parameterIndex, InputStream x, int length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -149,14 +153,14 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
         throw new SQLFeatureNotSupportedException();
     }
 
-
     @Override
     public void addBatch() throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
     @Override
-    public void setCharacterStream(int parameterIndex, Reader reader, int length) throws SQLException {
+    public void setCharacterStream(int parameterIndex, Reader reader, int length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -227,7 +231,8 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setNCharacterStream(int parameterIndex, Reader value, long length) throws SQLException {
+    public void setNCharacterStream(int parameterIndex, Reader value, long length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -242,7 +247,8 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setBlob(int parameterIndex, InputStream inputStream, long length) throws SQLException {
+    public void setBlob(int parameterIndex, InputStream inputStream, long length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -257,7 +263,8 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setObject(int parameterIndex, Object x, int targetSqlType, int scaleOrLength) throws SQLException {
+    public void setObject(int parameterIndex, Object x, int targetSqlType, int scaleOrLength)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -267,12 +274,14 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setBinaryStream(int parameterIndex, InputStream x, long length) throws SQLException {
+    public void setBinaryStream(int parameterIndex, InputStream x, long length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
     @Override
-    public void setCharacterStream(int parameterIndex, Reader reader, long length) throws SQLException {
+    public void setCharacterStream(int parameterIndex, Reader reader, long length)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -312,7 +321,8 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     }
 
     @Override
-    public void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength) throws SQLException {
+    public void setObject(int parameterIndex, Object x, SQLType targetSqlType, int scaleOrLength)
+            throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
 
@@ -325,6 +335,4 @@ public class WDPreparedStatement extends WDStatement implements PreparedStatemen
     public long executeLargeUpdate() throws SQLException {
         throw new SQLFeatureNotSupportedException();
     }
-
-
 }

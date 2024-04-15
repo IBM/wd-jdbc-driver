@@ -1,0 +1,13 @@
+{
+  "projects" : [ {
+    "project_id" : "2279f8ca-ec68-4921-b90a-3ffdb65e6bbc",
+    "type" : "content_intelligence",
+    "name" : "Driver Test",
+    "collection_count" : 1
+  }, {
+    "project_id" : "20d55e4b-8e19-4382-bd28-1cdc179e5551",
+    "type" : "intelligent_document_processing",
+    "name" : "Sample Project",
+    "collection_count" : 1
+  } ]
+}

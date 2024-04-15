@@ -1,0 +1,524 @@
+{
+  "matching_results": 3,
+  "retrieval_details": {
+    "document_retrieval_strategy": "untrained"
+  },
+  "results": [
+    {
+      "document_id": "5079a569-c6ad-4a9f-9828-7da443742b3a",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "metadata": {
+        "wd_cursor_key": 3,
+        "parent_document_id": "5079a569-c6ad-4a9f-9828-7da443742b3a"
+      },
+      "extracted_metadata": {
+        "sha1": "B9CDD7E18F2E0740003D9EC662782F1CE4B6DB86",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_3.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[180.92999267578125,184.3780059814453,363.8283386230469,191.88000583648682]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,20]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,184.3780059814453,512.6375122070312,325.0993971824646]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[20,224]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,342.82037353515625,256.8184814453125,373.09640645980835]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[224,385]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,379.06341552734375,276.9722595214844,409.0874037742615]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[385,515]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,282.77239990234375,542.090576171875,349.03939962387085]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[515,834]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,426.8083801269531,255.97613525390625,433.0903944969177]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[834,887]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,439.0574035644531,262.8431091308594,469.08139181137085]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[887,1051]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,475.04840087890625,269.5724792480469,493.07541036605835]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1051,1125]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,367.01239013671875,547.537353515625,409.0333876609802]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1125,1371]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,415.0003967285156,545.6599731445312,457.0213942527771]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1371,1611]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,510.7963562011719,280.7801513671875,553.0693678855896]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1611,1841]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,559.036376953125,126.99809265136719,565.0663771629333]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1841,1866]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,583.0393676757812,280.75225830078125,649.0543532371521]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1866,2188]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,474.9944152832031,544.9974975585938,600.9943556785583]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2188,2814]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,606.9613647460938,534.9536743164062,624.9883742332458]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2814,2884]}},{\"page\":{\"page_number\":1,\"bbox\":[36.17999267578125,711.5950317382812,40.3799934387207,716.4600315093994]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2884,2885]}}],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      }
+    },
+    {
+      "document_id": "fcffab4c-9ba9-47a9-86b4-b1568e0a0b98",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "enriched_text": [
+        {
+          "entities": [
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "IBMers",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "60%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "80%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "two thirds",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "IBM",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "nine",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2023",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Apptio",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "thousands",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Virgin Money",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Nokia",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Boston Red Sox",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Experts",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "data and AI consultants",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "AWS",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Microsoft",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "SAP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Salesforce",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Samsung",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "40%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "IBM Research",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "consultants",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Riyadh Air",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "first",
+              "type": "Ordinal"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "NATO",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Diageo",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Consulting",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "five-year",
+              "type": "Duration"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "One",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Cleveland Clinic",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Platform for Digital and Quantum Innovation of Quebec, Rensselaer Polytechnic Institute",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "University of Tokyo",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2023",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "3",
+              "type": "Number"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "wd_cursor_key": 4,
+        "parent_document_id": "fcffab4c-9ba9-47a9-86b4-b1568e0a0b98"
+      },
+      "extracted_metadata": {
+        "sha1": "112E991D8A46DA1A50A25D4E4353134473F12CCF",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_4.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,90.62997436523438,282.5495300292969,144.64801168441772]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,272]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,90.54000854492188,548.2322998046875,108.56701803207397]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[272,358]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,162.62100219726562,283.5251770019531,276.62399435043335]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[358,943]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,282.59100341796875,274.4090270996094,336.609010219574]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[943,1201]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,126.54000854492188,548.8046875,168.56097555160522]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1201,1414]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,186.2820281982422,529.6382446289062,204.56097555160522]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1414,1510]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,210.52798461914062,535.2643432617188,252.54901266098022]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1510,1717]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,270.5220031738281,546.4115600585938,312.5430006980896]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1717,1959]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,318.510009765625,546.1721801757812,336.536988735199]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1959,2026]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,354.5820007324219,277.6624755859375,396.60299825668335]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2026,2259]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,402.57000732421875,258.2287902832031,420.5969862937927]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2259,2361]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,438.57000732421875,276.3782653808594,504.5850234031677]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2361,2724]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,510.5520324707031,285.2611999511719,516.5820326805115]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2724,2787]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,354.510009765625,540.617431640625,456.515992641449]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2787,3265]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,474.23699951171875,533.8818359375,516.5100111961365]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3265,3432]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,534.5549926757812,261.0674743652344,540.5849928855896]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3432,3488]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,546.552001953125,279.0296630859375,600.5699782371521]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3488,3772]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,534.4829711914062,546.1965942382812,588.5009474754333]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3772,4014]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,606.4739990234375,547.8298950195312,716.4600195884705]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[4014,4460]}},{\"page\":{\"page_number\":1,\"bbox\":[544.9819946289062,711.5950317382812,549.1820068359375,716.4600315093994]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[4460,4461]}}],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      },
+      "text": [
+        "IBMers are also embracing watsonx to unleash greater productivity, eliminate complexity, simplify workflows, and automate manual tasks. Examples include processing HR and IT tasks more easily, generating code up to 60% faster, and answering client inquiries more quickly. along with new machine learning, intelligence, and operational improvements for z/OS. Hybrid cloud architectures have seen massive adoption, with nearly 80% of IT decision makers operating hybrid cloud environments. But nearly two thirds of companies report difficulty managing these complex environments, a challenge that will grow as businesses deploy generative AI across multiple clouds. IBM’s industry-leading hybrid cloud platform, based on Red Hat OpenShift, can solve this problem. It helps our clients move from architectures that are hybrid by default to architectures that are hybrid by design. It enables companies to run workloads seamlessly across multiple clouds, both public and private, to simplify operations, unify data and applications, and accelerate new innovations. And it complements our watsonx platform, allowing clients the flexibility to manage multi-model AI across complex, multicloud environments. In addition, we enhanced IBM’s portfolio with nine acquisitions in 2023, including Apptio, a suite of software to help our clients better understand their technology investment and the business value it delivers. Client engagement and partnership IBM’s success is directly tied to the success of our clients. Their problems are our problems. And their opportunities are our opportunities. That is why we developed a more collaborative, experience-based approach that allows us to respond effectively to their needs. The IBM Garage Method, now integrated across our business, combines agile development and design thinking to facilitate co-creation with our clients. Clients have embraced this highly collaborative way of working with IBM, turning ideas into outcomes with thousands of Garage engagements throughout the year. Virgin Money is harnessing IBM’s hybrid cloud to enable new digital customer experiences and improve their credit card services. Red Hat OpenShift is now the preferred platform provider to Nokia’s core network applications business. And the Boston Red Sox are leveraging our hybrid cloud technologies to improve the club’s operations. Experts from Consulting provide differentiated value as we establish IBM as a leader in AI for business, just as they did with our hybrid cloud business. Our extensive network of data and AI consultants has already facilitated thousands of hands-on client interactions. IBM combines technology with consulting services to deliver the data architecture, security, and governance our clients need to adopt trusted AI solutions. Our approach to client engagement allows us to meet clients where they are, bringing together whatever technology and expertise are needed across our expanding partner ecosystem. That is why we strengthened our strategic partnerships with key industry players like Adobe, AWS, Microsoft, SAP, Salesforce, Samsung, and others. Strategic partnerships now make up more than 40% of our Consulting revenue and delivered double-digit growth in both signings and revenue for the year. Research and development In 2023, IBM Research advanced the fundamental science of several critical technologies, including AI, quantum computing, and semiconductors. IBM consultants are working with Riyadh Air on mission- critical technology and business capabilities to support the path to their first flight. NATO chose IBM to help detect and respond to cyber threats with greater speed. And Diageo partnered with Consulting and SAP on an ambitious five-year business transformation and cloud migration. In AI, we demonstrated our ability to quickly transform research into commercial applications. We launched the watsonx AI and data platform, introduced the groundbreaking Granite AI foundational model, and developed new AIoptimized hardware. Throughout 2023, clients modernized their infrastructure with the z16 platform in alignment with their hybrid cloud and AI strategies. IBM launched a new suite of AI offerings for IBM Z We have IBM Quantum System One engagements with several leading organizations, including Cleveland Clinic, the Platform for Digital and Quantum Innovation of Quebec, Rensselaer Polytechnic Institute, and the University of Tokyo. We also IBM 2023 Annual Report 3"
+      ]
+    },
+    {
+      "document_id": "7ec2e899-158e-4b9c-8afe-f9bcb62e0d4b",
+      "result_metadata": {
+        "collection_id": "0e7b5d0f-f98f-4bf9-0000-018e807cf40a"
+      },
+      "enriched_text": [
+        {
+          "entities": [
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "133",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.7244338,
+                  "location": {
+                    "end": 133,
+                    "begin": 130
+                  },
+                  "text": "IBM"
+                }
+              ],
+              "text": "IBM",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Two",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2025",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "two million",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2026",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Rapidus",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Japan",
+              "type": "Location"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "New York State",
+              "type": "Location"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Micron",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "$10 billion",
+              "type": "Money"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "semiconductor R&D",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "IBM IBM",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "spring of 2020",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "two",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Meta",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "AI Alliance",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "70",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2020",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "63%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "base year 2010",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "1,000",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Arvind Krishna Chairman",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "Chief Executive Officer",
+              "type": "JobTitle"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "GAAP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "non-GAAP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "6",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "31",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2023 Annual",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "13",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "10",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "SEC",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "February 26, 2024",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "17",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [],
+              "text": "2023",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 4042,
+                    "begin": 4041
+                  },
+                  "text": "4"
+                }
+              ],
+              "text": "4",
+              "type": "Number"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "wd_cursor_key": 5,
+        "parent_document_id": "7ec2e899-158e-4b9c-8afe-f9bcb62e0d4b"
+      },
+      "extracted_metadata": {
+        "sha1": "0F93270AD6E8399BA1DA0E8857EF2F5ADD8E54AB",
+        "numPages": "1",
+        "filename": "IBM_Annual_Report_2023_5.pdf",
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,61.829986572265625,282.6566162109375,115.84802389144897]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,269]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,61.758026123046875,535.7241821289062,91.78198385238647]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[269,410]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,133.82101440429688,281.71966552734375,211.83300924301147]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[410,826]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,109.75497436523438,537.6466064453125,139.77899312973022]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[826,954]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,229.5540008544922,267.5987243652344,247.83300924301147]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[954,1035]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,253.79998779296875,170.8451690673828,259.8299880027771]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1035,1071]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,157.75198364257812,548.2431640625,259.7579970359802]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1071,1558]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,277.8030090332031,283.98583984375,343.817994594574]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1558,1918]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,349.7850036621094,280.7109069824219,415.7999892234802]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1918,2271]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,277.7309875488281,548.8812866210938,367.7399916648865]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2271,2744]}},{\"page\":{\"page_number\":1,\"bbox\":[298.6829833984375,385.7130126953125,405.0207214355469,391.74301290512085]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2744,2772]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,433.77301025390625,273.0887145996094,451.7999892234802]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2772,2894]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,457.7669982910156,258.47265625,463.796998500824]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2894,2949]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,469.7640075683594,266.0075988769531,487.79098653793335]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[2949,3057]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,493.75799560546875,263.5631103515625,499.7879958152771]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3057,3112]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,454.9378967285156,530.6222534179688,649.8640112876892]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3112,3627]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,654.1759643554688,546.141357421875,676.8699927330017]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[3627,4041]}},{\"page\":{\"page_number\":1,\"bbox\":[36.179988861083984,711.60400390625,40.37998962402344,716.4690036773682]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[4041,4042]}}],\"pages\":[{\"page_number\":0,\"height\":738.0,\"width\":585.0,\"origin\":\"TopLeft\"}]}",
+        "title": ""
+      },
+      "text": [
+        "unveiled our 133-qubit Quantum Heron processor, which enhanced the performance, efficiency, and scalability of the newly deployed IBM Quantum System Two. And our work on error correction and mitigation is helping to lay the foundation for a new era of quantum utility. technology ethics by 2025. And IBM committed to training two million learners in AI by the end of 2026 to address the technology skills gap. Research also pushed the limits of semiconductor design and packaging, building on recent innovations such as the 2nm node chip, hybrid bonding, and vertical transistors. We are working with Rapidus to propel Japan’s push for leadership in semiconductor research and manufacturing, and we are participating in an initiative with New York State, Micron, and others to jointly invest $10 billion in semiconductor R&D. But IBM’s commitment to trust goes beyond our citizenship, products, and policies. We earn trust by delivering on our promises. The promise of IBM IBM is in the business of shaping the future for our clients. That future must be built on trust. We articulated a clear vision for the future of IBM in the spring of 2020. We promised a more focused company built around two powerful technologies: hybrid cloud and AI. We promised fundamental changes to our go-to-market strategy, putting clients at the center of everything we do and transforming competitors into partners. And we promised operational changes to simplify our internal processes and increase our productivity. As this report details, we are fulfilling those promises. IBM is at the forefront of technologies, like AI and quantum computing, which will fundamentally change the way we work and live. We bear significant responsibility to develop those technologies ethically and deploy them with transparency and trust. That is why we built powerful AI governance into our watsonx platform and developed quantum-safe cryptography to secure sensitive data. It is why we advocate for smart AI regulation, including holding those who develop and deploy AI accountable for fraudulent, discriminatory, and harmful activity. And it is why IBM and Meta announced the formation of the AI Alliance, a group of more than 70 organizations dedicated to advancing open, safe, and responsible AI. As we look ahead, we renew our commitment to the journey we began in 2020. We will continue to innovate, to execute with speed and purpose, find more opportunities for operational efficiency, and further enhance our productivity by employing the same technologies we use to drive growth for our clients. And as always, we will be the catalyst that makes the world work better, bringing together our colleagues, clients, and partners with a simple invitation: Let’s Create. This is the promise of IBM. We also earn trust by operating with integrity, staying true to our values, and addressing the needs of all stakeholders. We continue to advance our efforts on the environment, ethics, and education. IBM has achieved a 63% reduction in greenhouse gas emissions against base year 2010. We announced a new program to train 1,000 suppliers in Arvind Krishna Chairman and Chief Executive Officer In an effort to provide additional and useful information regarding the company’s financial results and other financial information, as determined by generally accepted accounting principles (GAAP), these materials contain non-GAAP financial measures on a continuing operations basis, including revenue growth rates adjusted for constant currency and free cash flow. The rationale for management’s use of this non-GAAP information is included on page 6 and 31 of the company’s 2023 Annual Report, which is Exhibit 13 to the Form 10-K submitted with the SEC on February 26, 2024. For reconciliation of these non-GAAP f inancial measures to GAAP and other information, please refer to pages 17 and 31 of the company’s 2023 Annual Report. For watsonx and generative AI, book of business includes Software transactional revenue, SaaS Annual Contract Value and Consulting signings. 4"
+      ]
+    }
+  ]
+}

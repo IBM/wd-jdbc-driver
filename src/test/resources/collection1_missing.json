@@ -1,0 +1,32 @@
+{
+  "name" : "Driver Test Collection 1",
+  "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+  "description" : "",
+  "created" : "2024-03-27T15:17:37.308Z",
+  "language" : "en",
+  "enrichments" : [ {
+    "enrichment_id" : "701db916-fc83-57ab-0000-00000000001e",
+    "fields" : [ "text", "html" ]
+  }, {
+    "enrichment_id" : "701db916-fc83-57ab-0000-000000000012",
+    "fields" : [ "html" ]
+  }, {
+    "enrichment_id" : "701db916-fc83-57ab-0000-000000000014",
+    "fields" : [ "html" ]
+  } ],
+  "smart_document_understanding" : {
+    "enabled" : true,
+    "model" : "pre_trained"
+  },
+  "source_document_counts" : {
+    "pending" : 0,
+    "processing" : 0,
+    "available" : 128,
+    "failed" : 0
+  },
+  "document_counts" : {
+    "processing" : 0,
+    "available" : 128,
+    "failed" : 0
+  }
+}

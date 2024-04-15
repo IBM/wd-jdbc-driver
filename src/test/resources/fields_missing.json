@@ -1,0 +1,727 @@
+{
+  "fields" : [ {
+    "field" : "enriched_html",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.interpretation",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.interpretation.numeric_value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.interpretation.unit",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.interpretation.value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_amounts.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_currencies.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.interpretation",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.interpretation.numeric_value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.interpretation.unit",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.interpretation.value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.contract_terms.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.document_structure",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.element_locations",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.element_locations.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.element_locations.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.leading_sentences.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.document_structure.paragraphs",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.paragraphs.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.paragraphs.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.element_locations",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.element_locations.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.element_locations.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.document_structure.section_titles.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.effective_dates",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.effective_dates.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.elements.attributes",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.elements.attributes.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.elements.attributes.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.elements.attributes.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.attributes.type",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.categories",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.elements.categories.label",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.categories.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.elements.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.elements.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.types",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.elements.types.label",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.elements.types.label.nature",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.types.label.party",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.elements.types.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.parties",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.parties.importance",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.parties.mentions.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.parties.mentions.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.parties.mentions.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.parties.party",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.parties.role",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.interpretation",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.interpretation.numeric_value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.interpretation.unit",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.interpretation.value",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.payment_terms.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.termination_dates",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.confidence_level",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.provenance_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.contract.termination_dates.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.entities",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.entities.mentions.confidence",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "double"
+  }, {
+    "field" : "enriched_html.entities.mentions.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.entities.mentions.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.entities.mentions.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.entities.model_name",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.entities.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.entities.type",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_html.tables.body_cells.attributes.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.attributes.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.attributes.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.attributes.type",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.cell_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.column_header_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.column_header_texts",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.column_header_texts_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.column_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.column_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.row_header_ids",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.row_header_texts",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.row_header_texts_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.body_cells.row_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.row_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.body_cells.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.column_headers.cell_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.column_headers.column_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.column_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.row_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.row_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.column_headers.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.column_headers.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.contexts.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.contexts.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.contexts.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.key.cell_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.key.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.key.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.key.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.value.cell_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.value.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.value.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.key_value_pairs.value.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.cell_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.row_headers.column_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.column_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.row_index_begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.row_index_end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.row_headers.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.row_headers.text_normalized",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.section_title.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.section_title.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_html.tables.section_title.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_html.tables.title",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "object"
+  }, {
+    "field" : "enriched_text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.mentions.confidence",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "double"
+  }, {
+    "field" : "enriched_text.entities.mentions.location.begin",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_text.entities.mentions.location.end",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "enriched_text.entities.mentions.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.model_name",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.type",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.file_type",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.filename",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.numPages",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.sha1",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.title",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "metadata",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "nested"
+  }, {
+    "field" : "metadata.parent_document_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "metadata.wd_cursor_key",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "long"
+  }, {
+    "field" : "text",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  }, {
+    "field" : "document_id",
+    "collection_id" : "0e7b5d0f-f98f-4bf9-0000-018e807cf40a",
+    "type" : "string"
+  } ]
+}
