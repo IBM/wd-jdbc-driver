@@ -29,10 +29,13 @@ public class WDObjectIterator implements Iterator<Object> {
         if (previousNestedObjectIterator != null) {
             previousNestedObjectIterator = null;
         }
+        NestedObjectIterator tempIterator = nestedObjectIterator;
         while (!hasNext() && queryIterator.hasNext()) {
-            previousNestedObjectIterator = nestedObjectIterator;
             nestedObjectIterator = WDDocValueExtractor.generateNestedObjectIterator(
                     fieldPath.getFieldPath(), queryIterator.next(), generateNestedStrictly);
+        }
+        if (tempIterator != nestedObjectIterator) {
+            previousNestedObjectIterator = tempIterator;
         }
     }
 

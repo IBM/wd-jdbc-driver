@@ -257,6 +257,42 @@ public class WDStatementTest {
     }
 
     @Test
+    public void testIfSequenceIsCorrectlyIncremented() throws SQLException, IOException {
+        Properties properties = new Properties();
+        properties.setProperty(WD_CURSOR_KEY_FIELD_PATH.getName(), "metadata.cursor");
+        try (WDConnection connection = getConnection(properties)) {
+            Statement stmt = connection.createStatement();
+            ResultSet result = stmt.executeQuery(
+                    "select "
+                            + "\"enriched_text_wd_nested_seq_num\", "
+                            + "\"enriched_text_entities_wd_nested_seq_num\", "
+                            + "\"enriched_text_entities_mentions_wd_nested_seq_num\" "
+                            + "from \"Test CI Project\".\"Annual Report Collection 1 [entities from enriched_text]\"");
+
+            int previousSeq1 = 0;
+            int previousSeq2 = 0;
+            int previousSeq3 = 0;
+            while (result.next()) {
+                int seq1 = result.getInt("enriched_text_wd_nested_seq_num");
+                int seq2 = result.getInt("enriched_text_entities_wd_nested_seq_num");
+                int seq3 = result.getInt("enriched_text_entities_mentions_wd_nested_seq_num");
+                Assertions.assertTrue(seq1 > 0);
+                Assertions.assertTrue(seq2 > 0);
+                if (previousSeq1 != seq1) {
+                    Assertions.assertEquals(1, seq2);
+                    Assertions.assertEquals(1, seq3);
+                }
+                if (previousSeq2 != seq2) {
+                    Assertions.assertEquals(1, seq3);
+                }
+                previousSeq1 = seq1;
+                previousSeq2 = seq2;
+                previousSeq3 = seq3;
+            }
+        }
+    }
+
+    @Test
     public void testErrorIfAccessingNonExistingColumn() throws SQLException, IOException {
         Properties properties = new Properties();
         properties.setProperty(WD_CURSOR_KEY_FIELD_PATH.getName(), "metadata.cursor");
